@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>สั่งซื้อ - Lunelle</title>
+
+<style>
+body {
+    font-family: Arial;
+    margin:0;
+    text-align:center;
+    background: linear-gradient(to right, #fff0f5, #ffe6f0);
+}
+
+header {
+    background-color:#ff66a3;
+    padding:20px;
+    color:white;
+}
+
+.container {
+    padding:40px 20px;
+}
+
+form {
+    background:white;
+    padding:30px;
+    width:300px;
+    margin:auto;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+input {
+    width:90%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+
+button {
+    background:#ff66a3;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+}
+
+.home-btn {
+    display:inline-block;
+    margin-top:20px;
+    background:#ff66a3;
+    color:white;
+    padding:10px 20px;
+    border-radius:20px;
+    text-decoration:none;
+}
+
+footer {
+    background:#ff66a3;
+    color:white;
+    padding:15px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Lunelle</h1>
+    <p>กรอกข้อมูลสั่งซื้อ</p>
+</header>
+
+<div class="container">
+
+    <form>
+        <h3>ชุดเซ็ต + กระโปรง 399 ฿</h3>
+
+        <input type="text" placeholder="ชื่อ - นามสกุล" required>
+        <input type="text" placeholder="ที่อยู่จัดส่ง" required>
+        <input type="tel" placeholder="เบอร์โทร" required>
+
+        <br>
+        <button type="submit">ยืนยันการสั่งซื้อ</button>
+    </form>
+
+    <a href="index.html" class="home-btn">🏠 กลับหน้าแรก</a>
+
+</div>
+
+<footer>
+    © 2026 Lunelle Fashion Store
+</footer>
+
+</body>
+</html>
